@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Thông tin chi tiết"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettMaNV"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:inputType="text"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/ettTenNV"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:inputType="text"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettTuoiNV"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="196dp"
+        android:ems="10"
+        android:inputType="text"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettDiaChi"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV4"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="252dp"
+        android:text="Địa chỉ:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV3"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="196dp"
+        android:text="Tuổi nhân viên:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV2"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="144dp"
+        android:text="Tên Nhân Viên:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="60dp"
+
+        android:layout_marginTop="92dp"
+        android:text="MÃ Nhân Viên:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="420dp"
+        android:text="trở về"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnXoa"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="336dp"
+        android:text="Xóa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="336dp"
+        android:text="Lưu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    " />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

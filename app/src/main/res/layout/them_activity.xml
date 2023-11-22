@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Thông tin chi tiết"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettMaNV"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettTenNV"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettTuoiNV"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettDiaChi"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV4"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="292dp"
+        android:text="Địa chỉ:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV3"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="228dp"
+        android:text="Tuổi nhân viên:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV2"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="164dp"
+        android:text="Tên Nhân Viên:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ettMaNV"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="100dp"
+        android:text="MÃ Nhân Viên:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnthem"
+        android:layout_width="194dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="368dp"
+        android:text="Thêm mới"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="368dp"
+        android:text="trở về"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
